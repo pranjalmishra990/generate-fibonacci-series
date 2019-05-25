@@ -1,0 +1,14 @@
+n = 0
+m = 1
+r = 0
+z = int(raw_input("how many fibonacci numbers you want? "))
+fibonacci_numbers = []
+
+while (r < z):
+  fibonacci_numbers.append(n)
+  n = n + m
+  (n,m) = (m,n)
+  r = r + 1
+  
+  print fibonacci_numbers
+  
